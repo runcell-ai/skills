@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-29",
+  "sources": {
+    "runcell-official-skills": "3d8f54c895892ac865713296901ac82038aa6432",
+    "d5m": "922c3340d9ac19ad3139bf64638c09680d552cef"
+  },
+  "files": [
+    {
+      "destination_repo": "skills",
+      "destination": "AGENTS.md",
+      "source": "runcell-official-skills/AGENTS.md",
+      "sha256": "168dc5b59ee38bcad1a348fe3ecd4fa8fac601e18e73767371671bb49666381e"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "catalog/runcell-official-skills.json",
+      "source": "runcell-official-skills/catalog/runcell-official-skills.json",
+      "sha256": "1349431a22498f64d9fd98b48b3e77b43266e92b070efd677f38d646c44a39d2"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "catalog/runtime-skills.json",
+      "source": "runcell-official-skills/catalog/runtime-skills.json",
+      "sha256": "c6b6d416f17e54ffdfa28b4dc7f0e2897d71c44bec935a1fbe9cb922d4052321"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "hosting/vercel.json",
+      "source": "runcell-official-skills/hosting/vercel.json",
+      "sha256": "4048cc49c38223eb7f3cf0de2e754113ac9313acf1463b549289124453928203"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "packages/academic-visualization-1.0.0.release.json",
+      "source": "runcell-official-skills/packages/academic-visualization-1.0.0.release.json",
+      "sha256": "b2043e6db3ef548d7f437b6fe7f66289a982a6bcb98f4e2027631c91384e0600"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "packages/academic-visualization-1.0.0.zip",
+      "source": "runcell-official-skills/packages/academic-visualization-1.0.0.zip",
+      "sha256": "0f2877448b103e5b7f88129cf3694cc81e98992d0d441dba7365f585d65eb352"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "packages/runcell-table-audit-1.0.0.release.json",
+      "source": "runcell-official-skills/packages/runcell-table-audit-1.0.0.release.json",
+      "sha256": "ed67a31fdb0a72307092cadda5b64531172a533a1fee221f62e494a9d4ad8ac9"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "packages/runcell-table-audit-1.0.0.zip",
+      "source": "runcell-official-skills/packages/runcell-table-audit-1.0.0.zip",
+      "sha256": "dd392300e3a8dac4d17de9d2e89ac26d353e12ec53d3855fbf7f03423cea032a"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "pyproject.toml",
+      "source": "runcell-official-skills/pyproject.toml",
+      "sha256": "8ff59b2af56bd21bc45e7f5203ddaabc7d647e908cf06a0346dea2576dfbc94d"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "scripts/official_skill_release.py",
+      "source": "runcell-official-skills/scripts/official_skill_release.py",
+      "sha256": "454dd1b9dfb4d59ee5d160ba140c33130739a40e8330561e17b13fe58c0eb75c"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "scripts/prepare_static.py",
+      "source": "runcell-official-skills/scripts/prepare_static.py",
+      "source_sha256": "88f90045b6c4a901a64341ebd1f6c2a667d5f3277ce9e93b5863345bb04b1b8d",
+      "sha256": "1785a352ceb0149346b43b3f7acbe2d0fe3bbe2ed24bbd28b2614f9f6a3ead8c",
+      "change": "Read LICENSES/Apache-2.0.txt instead of root LICENSE for deployment."
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "skills/academic-visualization/SKILL.md",
+      "source": "runcell-official-skills/skills/academic-visualization/SKILL.md",
+      "sha256": "a59e5a9a6b107bcc31adcf360ba47ed892f64869c36fc1abf643bf151764ed29"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "skills/academic-visualization/assets/publication.mplstyle",
+      "source": "runcell-official-skills/skills/academic-visualization/assets/publication.mplstyle",
+      "sha256": "f4fa11893a568d6a2b0a5e1dc385b91fc1168bd6872fe7ff119dc0d13cfc4e8a"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "skills/academic-visualization/references/publication-style.md",
+      "source": "runcell-official-skills/skills/academic-visualization/references/publication-style.md",
+      "sha256": "7145fa9f890dc5a90fa8e68f82ded2d6c4b94128176af5dca139569d568abcf0"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "skills/academic-visualization/references/publisher-requirements.md",
+      "source": "runcell-official-skills/skills/academic-visualization/references/publisher-requirements.md",
+      "sha256": "04257d025762dbb220ecff00e787d8ecf85bd6ebcf3008595ca286990f1635e4"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "skills/academic-visualization/scripts/inspect_static_figure.py",
+      "source": "runcell-official-skills/skills/academic-visualization/scripts/inspect_static_figure.py",
+      "sha256": "11655f7f616c1d41091ae7e1feb6abc14fffa2c2c89e298f351baa1c0f7655fd"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "skills/runcell-table-audit/SKILL.md",
+      "source": "runcell-official-skills/skills/runcell-table-audit/SKILL.md",
+      "sha256": "19cc2795a0a6f0ba6c4d7eefda209ae937cb46ea38f80948aa22cc04d359d44d"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "skills/runcell-table-audit/references/reporting.md",
+      "source": "runcell-official-skills/skills/runcell-table-audit/references/reporting.md",
+      "sha256": "11649307d0a8bd3343640af399b0b9646df197df738534a03273b8a69dc61664"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "skills/runcell-table-audit/scripts/audit.py",
+      "source": "runcell-official-skills/skills/runcell-table-audit/scripts/audit.py",
+      "sha256": "3518032eb306528f45b0f41ac0cb61e71e358cb83eaf45018538b3e4e655ab1b"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "tests/test_official_skill_release.py",
+      "source": "runcell-official-skills/tests/test_official_skill_release.py",
+      "sha256": "8a17617260a88eac536789c7392a87d9bc104381a2a9f86da3be9239ce2db4c7"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "LICENSES/Apache-2.0.txt",
+      "source": "runcell-official-skills/LICENSE",
+      "sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "adapters/openai/academic-visualization.yaml",
+      "source": "runcell-official-skills/adapters/openai/academic-visualization.yaml (local untracked adapter)",
+      "sha256": "139c086f991c8216325b17d8b5d80001bc78f7424cb3dd78ce6a3c8b1444792c"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "skills/runcell-notebook-health/SKILL.md",
+      "source": "d5m/examples/skills/runcell-notebook-health/SKILL.md",
+      "sha256": "417a7738f3373f5fce243f83b825a91f9790a70601ec9d93c0d85b1da026fcd9"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "skills/runcell-notebook-health/references/reporting.md",
+      "source": "d5m/examples/skills/runcell-notebook-health/references/reporting.md",
+      "sha256": "b390261d665ee76b16fd53a9ee191d50bdf2b2f43abea2e86dd308bc35239894"
+    },
+    {
+      "destination_repo": "skills",
+      "destination": "skills/runcell-notebook-health/scripts/inspect_notebook.py",
+      "source": "d5m/examples/skills/runcell-notebook-health/scripts/inspect_notebook.py",
+      "sha256": "0a4bf2d63fad848b27ce701346c2200fc7ab5aa67bbdc6e642cf81d33d65c5bf"
+    }
+  ]
+}

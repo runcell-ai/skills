@@ -1,0 +1,8 @@
+savefig.facecolor: white
+savefig.bbox: standard
+figure.facecolor: white
+axes.facecolor: white
+axes.axisbelow: True
+pdf.fonttype: 42
+ps.fonttype: 42
+svg.fonttype: none

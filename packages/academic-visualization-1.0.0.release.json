@@ -1,0 +1,8 @@
+{
+  "bundleFile": "academic-visualization-1.0.0.zip",
+  "bundleSha256": "0f2877448b103e5b7f88129cf3694cc81e98992d0d441dba7365f585d65eb352",
+  "bundleSizeBytes": 8414,
+  "schemaVersion": 1,
+  "skillId": "academic-visualization",
+  "version": "1.0.0"
+}

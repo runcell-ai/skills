@@ -147,3 +147,10 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Local Skill validation and release staging
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.deploy/

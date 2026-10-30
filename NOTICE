@@ -1,0 +1,18 @@
+RunCell public Skills migration, 2026-10-29
+
+The following imported paths retain the Apache License, Version 2.0:
+- skills/**
+- adapters/**
+- scripts/**
+- tests/**
+- packages/**
+- catalog/**
+- hosting/**
+- AGENTS.md and pyproject.toml
+
+Sources: runcell-ai/runcell-official-skills and the RunCell d5m examples/skills directory.
+The original Apache-2.0 license text is retained at LICENSES/Apache-2.0.txt.
+These files are not relicensed by the root MIT license.
+
+scripts/prepare_static.py was adjusted on 2026-10-29 to preserve the existing
+download site's Apache-2.0 LICENSE from LICENSES/Apache-2.0.txt.

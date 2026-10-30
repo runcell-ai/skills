@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Visualization"
+  short_description: "Prepare target-aware publication figures"
+  default_prompt: "Use $academic-visualization to prepare and verify this figure for its target publication."

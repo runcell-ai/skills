@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "packages": [
+    {
+      "id": "academic-visualization",
+      "version": "1.0.0",
+      "url": "https://runcell-official-skills.vercel.app/packages/academic-visualization-1.0.0.zip",
+      "sha256": "0f2877448b103e5b7f88129cf3694cc81e98992d0d441dba7365f585d65eb352",
+      "size_bytes": 8414,
+      "min_client_version": "0.2.9",
+      "required_tools": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "bundleFile": "runcell-table-audit-1.0.0.zip",
+  "bundleSha256": "dd392300e3a8dac4d17de9d2e89ac26d353e12ec53d3855fbf7f03423cea032a",
+  "bundleSizeBytes": 2369,
+  "schemaVersion": 1,
+  "skillId": "runcell-table-audit",
+  "version": "1.0.0"
+}

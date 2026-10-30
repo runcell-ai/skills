@@ -1,0 +1,11 @@
+[project]
+name = "runcell-official-skills"
+version = "0.1.0"
+description = "Canonical source and release tooling for RunCell-maintained skills"
+requires-python = ">=3.10"
+dependencies = [
+  "PyYAML>=6,<7",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
