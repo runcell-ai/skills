@@ -21,9 +21,9 @@ Published versions are immutable. Change the version when content changes. A sou
 
 ## Existing static distribution
 
-The existing download origin remains [runcell-official-skills.vercel.app](https://runcell-official-skills.vercel.app/catalog/runtime-skills.json). This source migration preserves the existing catalog and published ZIP bytes. It does not deploy new content or publish a client.
+The download origin is [runcell-official-skills.vercel.app](https://runcell-official-skills.vercel.app/catalog/runtime-skills.json). The automatic delivery catalog lists academic-visualization, runcell-table-audit and runcell-notebook-health, each at version 1.0.0. See the [2026-10-30 publication record](docs/runtime-publication-2026-10-30.md) for package digests and deployments.
 
-`catalog/runtime-skills.json` is the automatic delivery catalog. `catalog/runcell-official-skills.json` retains the separate content-metadata format. Only academic-visualization is currently listed in the migrated automatic catalog. The table-audit ZIP is retained but not added to that catalog; notebook-health has source only.
+`catalog/runtime-skills.json` is the automatic delivery catalog. `catalog/runcell-official-skills.json` retains the separate content-metadata format. These content publications do not publish a client. The first client release containing automatic delivery remains pending; the catalog's minimum version alone does not mean an existing release contains that implementation. The candidate delivery mechanism installs new IDs and does not update an already installed ID when its catalog version changes.
 
 Run `python scripts/prepare_static.py` to verify the existing packages and prepare `.deploy/`. Deploy that directory to the existing Vercel project `runcell-official-skills` in team `kanaries` only as a separate release action. The project is not linked to Git pushes. Keep previous immutable files, verify new ZIPs before listing them, and verify catalog freshness after deployment. Do not deploy the repository root.
 
