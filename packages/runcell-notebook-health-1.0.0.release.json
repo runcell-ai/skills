@@ -1,0 +1,8 @@
+{
+  "bundleFile": "runcell-notebook-health-1.0.0.zip",
+  "bundleSha256": "5941889fcf81a9e7250a5321cae423e51cab896a9821a1966090bdf98e9ee179",
+  "bundleSizeBytes": 2246,
+  "schemaVersion": 1,
+  "skillId": "runcell-notebook-health",
+  "version": "1.0.0"
+}
