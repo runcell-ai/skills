@@ -1,6 +1,6 @@
 # Portable Word and PDF skills
 
-Added 2026-11-09 as source-only skills:
+Added 2026-11-09, initially as source-only skills:
 
 - `skills/word-documents/`: DOCX creation, reading, editing, comments, review
   guidance, and a standalone page renderer.
@@ -76,7 +76,7 @@ skips are not rendering acceptance.
 
 ## Distribution status
 
-No existing immutable package, release version, or automatic delivery catalog
-was changed. No deployment was performed. The README lists these as available
-sources. A later distribution release should build and verify new immutable
-packages, then update the appropriate catalog through the existing workflow.
+The initial authoring task did not publish packages. The subsequent authorized
+release packages both skills at 1.0.0 and adds them to automatic delivery;
+see [the publication record](document-skills-publication-2026-11-09.md).
+Existing immutable package bytes and versions are preserved.

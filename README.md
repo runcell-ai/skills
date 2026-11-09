@@ -10,8 +10,8 @@ Official public Skill sources maintained by RunCell. Each package lives under `s
 | word-documents | Create, edit, and review local Word documents with page previews. |
 | pdf | Read, create, transform, and fill PDFs with page and form checks. |
 
-`word-documents` and `pdf` are portable source additions, not yet listed in the
-automatic delivery catalog. Each skill documents its ordinary Python and system
+`word-documents` and `pdf` are included in the automatic delivery catalog at
+version 1.0.0. Each skill documents its ordinary Python and system
 dependencies. No host-specific runtime or connector is required. See
 [the portability record](docs/document-skills-portability.md) for scope and validation.
 
@@ -28,7 +28,7 @@ Published versions are immutable. Change the version when content changes. A sou
 
 ## Existing static distribution
 
-The download origin is [runcell-official-skills.vercel.app](https://runcell-official-skills.vercel.app/catalog/runtime-skills.json). The automatic delivery catalog lists academic-visualization, runcell-table-audit and runcell-notebook-health, each at version 1.0.0. See the [2026-10-30 publication record](docs/runtime-publication-2026-10-30.md) for package digests and deployments.
+The download origin is [runcell-official-skills.vercel.app](https://runcell-official-skills.vercel.app/catalog/runtime-skills.json). The automatic delivery catalog lists academic-visualization, runcell-table-audit, runcell-notebook-health, word-documents, and pdf, each at version 1.0.0. See the [2026-10-30 publication record](docs/runtime-publication-2026-10-30.md) and [2026-11-09 document skill publication](docs/document-skills-publication-2026-11-09.md) for package digests and deployment evidence.
 
 `catalog/runtime-skills.json` is the automatic delivery catalog. `catalog/runcell-official-skills.json` retains the separate content-metadata format. These content publications do not publish a client. The first client release containing automatic delivery remains pending; the catalog's minimum version alone does not mean an existing release contains that implementation. The client update implementation is tracked in [d5m PR #270](https://github.com/ObservedObserver/d5m/pull/270): it checks before a new Agent task, installs new IDs and upgrades installed IDs to compatible, strictly higher versions. Running tasks keep their previous instructions; failed updates retain the installed version and retry on the next task.
 

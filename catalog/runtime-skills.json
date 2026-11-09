@@ -31,6 +31,28 @@
       "required_tools": [
         "shell_execute"
       ]
+    },
+    {
+      "id": "word-documents",
+      "version": "1.0.0",
+      "url": "https://runcell-official-skills.vercel.app/packages/word-documents-1.0.0.zip",
+      "sha256": "92a2b64832dc75423a38ddf40d7a84f73f9429d633fe025502f7a388eddf59f1",
+      "size_bytes": 7288,
+      "min_client_version": "0.2.9",
+      "required_tools": [
+        "shell_execute"
+      ]
+    },
+    {
+      "id": "pdf",
+      "version": "1.0.0",
+      "url": "https://runcell-official-skills.vercel.app/packages/pdf-1.0.0.zip",
+      "sha256": "2089da4f6dca9589662688d4d2090cfd637a4819918c0fc11ace36d99ddc1b57",
+      "size_bytes": 6411,
+      "min_client_version": "0.2.9",
+      "required_tools": [
+        "shell_execute"
+      ]
     }
   ]
 }
