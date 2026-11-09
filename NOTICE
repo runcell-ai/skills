@@ -16,3 +16,10 @@ These files are not relicensed by the root MIT license.
 
 scripts/prepare_static.py was adjusted on 2026-10-29 to preserve the existing
 download site's Apache-2.0 LICENSE from LICENSES/Apache-2.0.txt.
+
+2026-11-09 portable document skills:
+skills/word-documents/**, skills/pdf/**, and tests/test_document_skills.py are
+newly authored RunCell material under the root MIT license, not part of the
+2026-10-29 import described above. No restricted bundled skill source is
+included. The skills use separately installed third-party libraries and tools,
+which retain their respective licenses.

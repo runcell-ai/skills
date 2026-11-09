@@ -1,0 +1,8 @@
+{
+  "bundleFile": "pdf-1.0.0.zip",
+  "bundleSha256": "2089da4f6dca9589662688d4d2090cfd637a4819918c0fc11ace36d99ddc1b57",
+  "bundleSizeBytes": 6411,
+  "schemaVersion": 1,
+  "skillId": "pdf",
+  "version": "1.0.0"
+}

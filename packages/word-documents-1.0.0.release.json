@@ -1,0 +1,8 @@
+{
+  "bundleFile": "word-documents-1.0.0.zip",
+  "bundleSha256": "92a2b64832dc75423a38ddf40d7a84f73f9429d633fe025502f7a388eddf59f1",
+  "bundleSizeBytes": 7288,
+  "schemaVersion": 1,
+  "skillId": "word-documents",
+  "version": "1.0.0"
+}

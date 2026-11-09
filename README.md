@@ -7,6 +7,13 @@ Official public Skill sources maintained by RunCell. Each package lives under `s
 | academic-visualization | Prepare and check publication figures. |
 | runcell-table-audit | Audit CSV files for missing values and duplicate rows. |
 | runcell-notebook-health | Inspect saved notebook errors and execution state without running cells. |
+| word-documents | Create, edit, and review local Word documents with page previews. |
+| pdf | Read, create, transform, and fill PDFs with page and form checks. |
+
+`word-documents` and `pdf` are portable source additions, not yet listed in the
+automatic delivery catalog. Each skill documents its ordinary Python and system
+dependencies. No host-specific runtime or connector is required. See
+[the portability record](docs/document-skills-portability.md) for scope and validation.
 
 ## Build and verify
 

@@ -9,3 +9,12 @@ dependencies = [
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[project.optional-dependencies]
+document-validation = [
+  "python-docx>=1.2,<2",
+  "pypdf>=6,<8",
+  "pdfplumber>=0.11,<1",
+  "reportlab>=4,<5",
+  "pytest>=8,<10",
+]
