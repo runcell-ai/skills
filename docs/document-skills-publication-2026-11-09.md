@@ -30,6 +30,41 @@ SHA-256 digests before adding the new catalog entries.
 4. Verified the public ZIPs, then used the client's
    `official_skills_catalog.py` helper to add both entries with schema validation.
 
+5. Committed and pushed `feat(skills): publish Word and PDF to automatic catalog`
+   (`1602b4f5b275f3b34f4c32fb021a23ec41dbef9c`). Catalog deployment
+   `dpl_2YCcaqJr8RFPsz3EL1CEjr77Jvri` reached Ready and assigned the production
+   alias without errors.
+
+## Public and runtime verification
+
+The production [catalog](https://runcell-official-skills.vercel.app/catalog/runtime-skills.json)
+returned HTTP 200 and matched the committed catalog exactly, including all five
+packages. Its response retained `Cache-Control: public, max-age=0, must-revalidate`
+and `CDN-Cache-Control: no-store`, with cache age 0. No cache-busting query was
+needed. Package downloads used their normal immutable URLs.
+
+The real `OfficialDelivery` class from the RunCell client source was exercised
+against this public HTTPS origin in an isolated temporary home. No mocks,
+alternate catalog URLs, fabricated responses, or modified runtime limits were
+used. The same Python process remained alive across catalog publication:
+
+| Check | Elapsed | Result |
+| --- | --- | --- |
+| Initial sync before publication | 2.757 s | Three existing packages installed, no diagnostics |
+| First sync after publication | 3.372 s | Both new packages installed, no diagnostics |
+
+The second sync used the client's normal cached-catalog revalidation path and
+five-second budget. Installed hashes matched the table above, both entrypoints,
+helper scripts and licenses were present, and existing package hashes remained
+unchanged. User configuration was isolated rather than modifying the user's
+actual installation. The process exited successfully.
+
+This verifies public distribution and the actual downloader/installer, not a
+new full Jupyter or desktop UI task. Automatic delivery support and declared
+tool availability are still required in the user's client. Installed skills
+provide instructions and helper scripts; Python packages and native rendering
+tools must be available separately.
+
 The authoring/rendering checks and their limits are recorded in
-[the portability record](document-skills-portability.md). Publication and
-post-deployment integration results are recorded below after verification.
+[the portability record](document-skills-portability.md). The complete local
+test suite passed with **8 tests**, with real file/render checks and no skips.
